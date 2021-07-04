@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:id="@+id/appBar"
+        android:backgroundTint="@color/design_1_2_background_color">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:text="@string/design_1_2_chip_text"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/brandon_medium"
+                android:background="@drawable/rounded_button"
+                android:drawableStart="@drawable/ic_arrow_ios"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/white"
+                android:paddingHorizontal="@dimen/_3sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/design_1_2_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/brandon_medium"
+                android:layout_marginStart="@dimen/_26sdp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/firstCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_below="@id/appBar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fruit_salad"
+                android:contentDescription="@string/design_1_2_card1_text"
+                android:padding="@dimen/_9sdp"
+                android:background="@drawable/low_rounded_button"
+                android:layout_marginStart="@dimen/_18sdp"
+                android:backgroundTint="@color/design_1_2_card1_color" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_card1_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_subtitle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_52sdp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:contentDescription="@string/design_1_2_price_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_n" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_price" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/secondCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_below="@id/firstCard">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:contentDescription="@string/design_1_2_card2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/melon_salad"
+                android:paddingHorizontal="@dimen/_8sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:background="@drawable/low_rounded_button"
+                android:layout_marginStart="@dimen/_18sdp"
+                android:backgroundTint="@color/design_1_2_card2_color" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_card2_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_subtitle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_60sdp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:contentDescription="@string/design_1_2_price_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_n" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_price" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/thirdCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_below="@id/secondCard">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_8sdp"
+            android:orientation="horizontal">
+            <ImageView
+                android:contentDescription="@string/design_1_2_card3_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tropical_salad"
+                android:paddingHorizontal="@dimen/_6sdp"
+                android:paddingVertical="@dimen/_12sdp"
+                android:background="@drawable/low_rounded_button"
+                android:layout_marginStart="@dimen/_18sdp"
+                android:backgroundTint="@color/design_1_2_card3_color" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_card3_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_subtitle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_52sdp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:contentDescription="@string/design_1_2_price_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_n" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/brandon_medium"
+                    android:text="@string/design_1_2_price" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="@dimen/_18sdp"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_22sdp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_3sdp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/design_1_2_total"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/black" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+                <ImageView
+                    android:contentDescription="@string/design_1_2_price_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_n" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:textSize="@dimen/_18ssp"
+                    android:textColor="@color/black"
+                    android:text="@string/design_1_2_price2" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/low_rounded_button"
+            android:backgroundTint="@color/design_1_2_background_color"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:paddingVertical="@dimen/_14sdp"
+            android:text="@string/design_1_2_button_text"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:contentDescription="@string/design_5_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_design_0_5"
+        android:layout_marginTop="-50dp"
+        android:scaleType="centerCrop" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CustomCardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/design_5_title"
+                android:textSize="@dimen/_22ssp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/proxima_bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_38sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/design_5_subtitle"
+                android:textSize="@dimen/_12ssp"
+                android:layout_marginHorizontal="@dimen/_38sdp"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:textAlignment="center" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_38sdp"
+                android:layout_marginTop="@dimen/_28sdp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/top_background_color"
+                android:fontFamily="@font/inter_medium"
+                android:padding="@dimen/_10sdp"
+                android:text="@string/buttonText_getStarted"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/design_5_info_text"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/inter_medium"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_28sdp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/dot_description"
+            android:layout_gravity="center"
+            android:src="@drawable/dot"
+            android:layout_marginEnd="@dimen/_7sdp"
+           />
+        <ImageView
+            android:contentDescription="@string/dot_description"
+            android:layout_width="@dimen/_6sdp"
+            android:layout_height="@dimen/_6sdp"
+            android:src="@drawable/dot"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_7sdp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/dot_description"
+            android:src="@drawable/dot"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_7sdp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/dot_description"
+            android:src="@drawable/dot"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</FrameLayout>

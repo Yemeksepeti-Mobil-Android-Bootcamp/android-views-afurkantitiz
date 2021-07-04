@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/drawable/border.xml" value="0.2703125" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/drawable/gradient_corner_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/drawable/low_rounded_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/drawable/rounded_button.xml" value="0.152" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/drawable/top_corner.xml" value="0.162" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/drawable/top_radius.xml" value="0.2703125" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout-v28/activity_design_1_6.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_0_1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_0_2.xml" value="0.152" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_0_3.xml" value="0.2" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_0_4.xml" value="0.2059071729957806" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_0_5.xml" value="0.2" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_0_7.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_0_8.xml" value="0.4" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_1_2.xml" value="0.264" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_1_4.xml" value="0.136" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_1_5.xml" value="0.264" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_design_1_6.xml" value="0.264" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/design_0_1.xml" value="0.20854700854700856" />
+        <entry key="..\:/Users/titiz/Documents/GitHub/android-views-afurkantitiz/app/src/main/res/layout/design_0_4.xml" value="0.2059071729957806" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

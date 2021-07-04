@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_1_6"
+        android:scaleType="fitXY" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CustomCardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_gravity="end|bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_18sdp"
+            android:layout_marginStart="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_26sdp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/design_1_6_title"
+                android:textSize="@dimen/_18ssp"
+                android:textFontWeight="900"
+                android:fontFamily="@font/metropolis_bold"
+                android:textColor="@color/black"
+                tools:targetApi="p" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/design_1_6_subtitle"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="@dimen/_10ssp"
+                android:fontFamily="@font/metropolis_medium"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/design_1_6_description"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="#828282"
+                android:fontFamily="@font/metropolis_medium"
+                android:layout_marginTop="@dimen/_18sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/low_rounded_button"
+                    android:backgroundTint="#1A2F80ED"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="@string/design_1_6_count_hotels"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_11ssp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/low_rounded_button"
+                    android:backgroundTint="#1A2F80ED"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="@string/design_1_6_count_restaurants"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/_11ssp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_1_6" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/design_1_6_from_Here"
+                    android:layout_marginStart="14dp"
+                    android:textColor="#4F4F4F" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_15sdp"
+            android:text="@string/design_1_6_button_text"
+            android:backgroundTint="#2F80ED"
+            android:textColor="@color/white"
+            android:background="@drawable/low_rounded_button"
+            android:textSize="@dimen/_13ssp"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="13dp"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/dot"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/dot"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:src="@drawable/dot"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dot"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dot"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</FrameLayout>

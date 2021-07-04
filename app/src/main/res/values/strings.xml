@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Android Views</string>
+
+    <string name="buttonText_getStarted">Get Started</string>
+    <string name="dot_description">Dot Description</string>
+
+    <!--Design 1 Strings-->
+    <string name="ellipse_2">Ellipse 2 Photograph</string>
+    <string name="ellipse_3">Ellipse 3 Photograph</string>
+    <string name="ellipse_6">Ellipse 6 Photograph</string>
+    <string name="ellipse_7">Ellipse 7 Photograph</string>
+    <string name="image_1">Image 1 Photograph</string>
+    <string name="image_3">Image 3 Photograph</string>
+    <string name="image_4">Image 4 Photograph</string>
+    <string name="rectangle_188">Rectangle 4 Photograph</string>
+    <string name="design_1_title">Start Cooking</string>
+    <string name="design_1_subTitle">Let’s join our community \nto cook better food!</string>
+
+    <!--Design 3 Strings-->
+    <string name="design_3_title">Match. Chat. Date.</string>
+    <string name="design_3_subtitle">The world’s most popular app for meeting new people.</string>
+    <string name="design_3_photo">Design 3 Photograph</string>
+    <string name="design_3_account_text">Already have account?</string>
+    <string name="design_3_account_subText">Log in</string>
+
+    <!--Design 5 Strings-->
+    <string name="design_5_title">Best holiday deals</string>
+    <string name="design_5_subtitle">Find deals for any season from cosy country homes to city flats</string>
+    <string name="design_5_info_text">Explore as guest</string>
+    <string name="design_5_photo">Design 5 Photograph</string>
+
+    <!--Design 7 Strings-->
+    <string name="design_7_title1">Modern</string>
+    <string name="design_7_title2">Aesthetic</string>
+    <string name="design_7_title3">Fashion</string>
+    <string name="design_7_button_women">Shop women</string>
+    <string name="design_7_button_men">Shop men</string>
+    <string name="design_7_account_login">Log in</string>
+
+    <!--Design 1_2 Strings-->
+    <string name="design_1_2_chip_text">Go back</string>
+    <string name="design_1_2_title">My Basket</string>
+    <string name="design_1_2_card1_text">Quinoa fruit salad</string>
+    <string name="design_1_2_card2_text">Melon fruit salad</string>
+    <string name="design_1_2_card3_text">Tropical fruit salad</string>
+    <string name="design_1_2_subtitle">2packs</string>
+    <string name="design_1_2_price">20,000</string>
+    <string name="design_1_2_total">Total</string>
+    <string name="design_1_2_price2">60,000</string>
+    <string name="design_1_2_button_text">Checkout</string>
+    <string name="design_1_2_price_description">Price</string>
+
+    <!--Design 1_4 Strings-->
+    <string name="design_1_4_title">Welcome Back!</string>
+    <string name="design_1_4_subtitle">Please enter your account here</string>
+    <string name="design_1_4_email_hint">Email or phone number</string>
+    <string name="design_1_4_password_hint">Password</string>
+    <string name="design_1_4_forgot_password">Forgot password?</string>
+    <string name="design_1_4_button_login_text">Login</string>
+    <string name="design_1_4_continue_text">Or continue with</string>
+    <string name="design_1_4_button_google_text">Google</string>
+    <string name="design_1_4_account">Don’t have any account?</string>
+    <string name="design_1_4_signup">Sign Up</string>
+    <string name="design_1_4_message_icon_desc">Message Icon</string>
+    <string name="design_1_4_password_icon_desc">Password Icon</string>
+    <string name="design_1_4_google_icon_desc">Google Icon</string>
+    <string name="design_1_5_arrow_desc">Arrow Icon</string>
+    <string name="design_1_5_title">Let\'s start here</string>
+    <string name="design_1_5_subtitle">Fill in your details to begin</string>
+    <string name="design_1_5_fullname">Fullname</string>
+    <string name="cristian">Cristian</string>
+    <string name="design_1_5_email">Email</string>
+    <string name="cristiandeb13_gmail_com">Cristiandeb13@gmail.com</string>
+    <string name="design_1_5_password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">or</string>
+    <string name="design_1_5_facebook_desc">Facebook Icon</string>
+    <string name="connect_with_facebook">Connect with Facebook</string>
+    <string name="connect_with_google">Connect with Google</string>
+    <string name="design_1_5_privacy_policy">By signing in, I agree with</string>
+    <string name="design_1_5_privacy_policy_term_use">Term of Use</string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="design_1_6_title">Jasper National Park</string>
+    <string name="design_1_6_subtitle">Alberta, Canada</string>
+    <string name="design_1_6_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac velit in nascetur pulvinar dignissim. Lectus elit odio hendrerit vel sed</string>
+    <string name="design_1_6_count_hotels">36 Hotels</string>
+    <string name="design_1_6_count_restaurants">145 Restaurants</string>
+    <string name="design_1_6_from_Here">34 Km from here</string>
+    <string name="design_1_6_button_text">Book Flight for My Trip</string>
+
+    <!--Design 1_5 Strings-->
+
+
+</resources>
